@@ -394,13 +394,11 @@ CREATE TABLE `utilisateurs` (
 --
 
 INSERT INTO `utilisateurs` (`id`, `nom`, `prenom`, `email`, `mot_de_passe`, `role`, `est_connecte`) VALUES
-(1, 'Boss', 'Directeur', 'directeur@ecole.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'directeur', 0),
-(2, 'Prof', 'Maths', 'enseignant@ecole.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'enseignant', 0),
-(3, 'Surv', 'Jean', 'surveillant@ecole.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'surveillant', 0),
-(4, 'Parent', 'Paul', 'parent@ecole.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'parent', 0),
-(5, 'yahya', 'maski', 'yahyamaski@gmail.com', '$2y$10$SDWZAxM7GLzqLwUjWZPWdeP9X91Nx.9F34q7tsNcLrtqVHaEqn0/6', 'parent', 0),
-(6, 'siham', 'maski', 'sihammaski@gmail.com', '$2y$10$HVNzqDPhnYxc/BsObscM9es2OHcPOXPmeAkI.7jv2MxX8GQWAWUIS', 'parent', 0),
-(7, 'acher', 'hatimi', 'acherhatimi@gmail.com', '$2y$10$lUZp.rJsB7dOOX1Hm8dPNuUAv2A/P4TEvfp6nRzppeI9NNTCfQpWC', 'eleve', 1);
+(1, 'bennanni', 'mohammed', 'directeur@ecole.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'directeur', 0),
+(2, 'sakid', 'amine', 'enseignant@ecole.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'enseignant', 0),
+(3, 'Surv', 'ilyass', 'surveillant@ecole.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'surveillant', 0),
+(4, 'Parent', 'ayoub', 'parent@ecole.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'parent', 0),
+(5, 'abderrahmane', 'Maski', 'acherhatimi@gmail.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'eleve', 1);
 
 --
 -- Index pour les tables déchargées
